@@ -1,0 +1,19 @@
+{
+    "name": "jlhertel/simple-doctrine-orm",
+    "description": "A simple doctrine ORM setup sample",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Jean Lorenz Hertel"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/App/"
+        }
+    },
+    "require": {
+        "dflydev/doctrine-orm-service-provider": "^2.0",
+        "silex/silex": "^2.0"
+    }
+}
